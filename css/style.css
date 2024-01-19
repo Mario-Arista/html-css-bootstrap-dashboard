@@ -10,6 +10,11 @@
     background-color: rgba(0, 255, 0, 0.3)
 }
 
+.test-blu {
+    border: 1px blue dashed;
+    background-color: rgba(0, 0, 255, 0.3)
+}
+
 .square {
     width: 200px;
     height: 200px;
@@ -17,6 +22,8 @@
 }
 
 /* END MY TESTS */
+
+/* DIMENSIONS FOR HEADER ASIDE AND MAIN*/
 
 header {
     height: 68px;
@@ -31,7 +38,6 @@ aside {
 }
 
 main {
-    top: 68px;
     left: 68px;
 
     width: calc(100% - 68px);
