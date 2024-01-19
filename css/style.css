@@ -20,14 +20,14 @@
 
 header {
     height: 68px;
-    width: 100vw;
+    width: 100%;
 }
 
 aside {
     top: 68px;
 
     width: 68px;
-    height: calc(100% - 68px);
+    height: calc(100vh - 68px);
 }
 
 main {
@@ -35,5 +35,8 @@ main {
     left: 68px;
 
     width: calc(100% - 68px);
+    height: calc(100vh - 68px);
     padding-top: 68px;
+
+    overflow-y: auto;
 }
