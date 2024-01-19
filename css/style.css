@@ -30,26 +30,31 @@ body {
 }
 
 header {
-    height: 68px;
+    height: 70px;
     width: 100%;
 }
 
-aside {
-    top: 68px;
+header .hd_right_left {
+    width: 70px;
+}
 
-    width: 68px;
-    height: calc(100vh - 68px);
+aside {
+    top: 70px;
+
+    width: 70px;
+    height: calc(100vh - 70px);
 
     background-color: #071E34;
     background-image: url('../img/sidebar-bg.png');
 }
 
 main {
-    left: 68px;
+    left: 70px;
+    top: 70px;
+    
 
-    width: calc(100% - 68px);
-    height: calc(100vh - 68px);
-    padding-top: 68px;
+    width: calc(100% - 70px);
+    height: calc(100vh - 70px);
 
     overflow-y: auto;
 }
@@ -57,14 +62,22 @@ main {
 /* MEDIA QUERRIES */
 
 @media screen and (min-width: 992px) {
+    header .hd_right_left {
+        width: 170px;
+    }
+
     aside {
-        top: 68px;
         width: 150px;
     }
-    
+
+    .hd_right_left {
+        width: 150px;
+    }
+
     main {
         left: 150px;
         width: calc(100% - 150px);
 
     }
+
 }

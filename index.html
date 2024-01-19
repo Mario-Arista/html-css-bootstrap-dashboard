@@ -20,30 +20,35 @@
 
     <!-- HEADER with logo, search and bell :) -->
 
-    <header class="position-absolute top-0 start-0">
+    <header class="position-absolute top-0 start-0 test-rd">
 
-        <div class="container-fluid h-100">
+        <div>
 
-            <div class="row h-100">
-                <div class="col-1 test-gr p-0">
+            <div class="d-flex justify-content-between align-items-center w-100">
+                <div class="hd_right_left">
+                    <img class="img-fluid d-lg-none flex-grow-1" src="./img/mobile-logo.png" alt="">
+                    <img id="ext_logo"  class="img-fluid d-none d-lg-block p-3 flex-grow-1" src="./img/logo.svg" alt="logo exteded">
+                </div>
+                <div class="flex flex-grow-1 test-gr">
                     ciao
                 </div>
-                <div class="col-10 test-gr">
-                    ciao
-                </div>
-                <div class="col-1 test-gr p-0">
-                    ciao
+                <div class="hd_right_left text-end d-lg-flex justify-content-around align-items-center pe-3">
+                    <i class="fa fa-list d-none d-lg-inline fs-5" aria-hidden="true"></i>
+                    <i class="fa fa-question-circle d-none d-lg-inline fs-5" aria-hidden="true"></i>
+                    <i class="fa fa-ellipsis-v d-none d-lg-inline fs-5" aria-hidden="true"></i>
+                    <i class="fa fa-bell fs-5" aria-hidden="true"></i>
                 </div>
             </div>
 
         </div>
+
     </header>
 
     <!-- ASIDE with 2 utilities part (start & end) -->
 
     <aside class="position-absolute start-0">
 
-        <div class="container h-100 pb-4 pt-4">
+        <div class="container h-100 pb-2 pt-3">
 
             <div class="row-cols-1 h-100 d-flex flex-column justify-content-between text-white">
                 <div class="col p-lg-3">
