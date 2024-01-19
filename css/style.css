@@ -1,11 +1,11 @@
 /* TESTS */
 
-.test-big {
+.test-rd {
     border: 1px red dashed;
     background-color: rgba(255, 0, 0, 0.3)
 }
 
-.test-con {
+.test-gr {
     border: 1px green dashed;
     background-color: rgba(0, 255, 0, 0.3)
 }
