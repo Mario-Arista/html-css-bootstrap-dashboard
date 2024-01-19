@@ -25,6 +25,10 @@
 
 /* DIMENSIONS FOR HEADER ASIDE AND MAIN*/
 
+body {
+    font-family: sans-serif;
+}
+
 header {
     height: 68px;
     width: 100%;
@@ -35,6 +39,9 @@ aside {
 
     width: 68px;
     height: calc(100vh - 68px);
+
+    background-color: #071E34;
+    background-image: url('../img/sidebar-bg.png');
 }
 
 main {
