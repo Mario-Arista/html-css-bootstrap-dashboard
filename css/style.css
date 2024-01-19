@@ -1,7 +1,39 @@
-h1 {
-    color: red;
+/* TESTS */
+
+.test-big {
+    border: 1px red dashed;
+    background-color: rgba(255, 0, 0, 0.3)
 }
 
-h2 {
-    color: green;
+.test-con {
+    border: 1px green dashed;
+    background-color: rgba(0, 255, 0, 0.3)
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+
+/* END MY TESTS */
+
+header {
+    height: 68px;
+    width: 100vw;
+}
+
+aside {
+    top: 68px;
+
+    width: 68px;
+    height: calc(100% - 68px);
+}
+
+main {
+    top: 68px;
+    left: 68px;
+
+    width: calc(100% - 68px);
+    padding-top: 68px;
 }
