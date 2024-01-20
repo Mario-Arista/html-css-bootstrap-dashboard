@@ -21,6 +21,12 @@
     background-color: grey;
 }
 
+/* COLORS */
+
+.my-lightgrey {
+    background-color: #E0E0E0;
+    border-radius: 8px;
+}
 /* END MY TESTS */
 
 /* DIMENSIONS FOR HEADER ASIDE AND MAIN*/

@@ -20,28 +20,34 @@
 
     <!-- HEADER with logo, search and bell :) -->
 
-    <header class="position-absolute top-0 start-0 test-rd">
-
-        <div>
-
-            <div class="d-flex justify-content-between align-items-center w-100">
-                <div class="hd_right_left">
-                    <img class="img-fluid d-lg-none flex-grow-1" src="./img/mobile-logo.png" alt="">
-                    <img id="ext_logo"  class="img-fluid d-none d-lg-block p-3 flex-grow-1" src="./img/logo.svg" alt="logo exteded">
-                </div>
-                <div class="flex flex-grow-1 test-gr">
-                    ciao
-                </div>
-                <div class="hd_right_left text-end d-lg-flex justify-content-around align-items-center pe-3">
-                    <i class="fa fa-list d-none d-lg-inline fs-5" aria-hidden="true"></i>
-                    <i class="fa fa-question-circle d-none d-lg-inline fs-5" aria-hidden="true"></i>
-                    <i class="fa fa-ellipsis-v d-none d-lg-inline fs-5" aria-hidden="true"></i>
-                    <i class="fa fa-bell fs-5" aria-hidden="true"></i>
-                </div>
+    <header class="position-absolute top-0 start-0">
+        <div class="d-flex justify-content-between align-items-center h-100 gap-2 bg-white">
+            <div class="hd_right_left">
+                <img class="img-fluid d-lg-none flex-grow-1" src="./img/mobile-logo.png" alt="">
+                <img id="ext_logo"  class="img-fluid d-none d-lg-block p-3 flex-grow-1" src="./img/logo.svg" alt="logo exteded">
             </div>
-
-        </div>
-
+            <div class="flex-grow-1 d-flex align-items-center my-lightgrey">
+                <div>
+                    <i class="fa fa-search" aria-hidden="true text-dark"></i>
+                </div>
+                <input class="form-control my-lightgrey" type="search" placeholder=" Prova a cercare: Lezioni di Laravel" aria-label="Search">
+            </div>
+            <div class="hd_right_left text-end d-lg-flex justify-content-around align-items-center pe-3">
+                <i class="fa fa-list d-none d-lg-inline fs-5" aria-hidden="true">
+                    <a href="*"></a>
+                </i>
+                <i class="fa fa-question-circle d-none d-lg-inline fs-5" aria-hidden="true">
+                    <a href="*"></a>
+                </i>
+                <i class="fa fa-ellipsis-v d-none d-lg-inline fs-5" aria-hidden="true">
+                    <a href="*"></a>
+                </i>
+                <div></div>
+                <i class="fa fa-bell fs-5 text-danger" aria-hidden="true">
+                    <a href="*"></a>
+                </i>
+            </div>
+        </div>   
     </header>
 
     <!-- ASIDE with 2 utilities part (start & end) -->
@@ -83,6 +89,40 @@
 
         <!-- Section #1: the blue one -->
         <section class="container fluid h50 bg-primary">
+
+            <div class="w-100 p-0">
+
+                <div class="row d-flex flex-column align-items-start">
+
+                    <div class="col-5 d-flex align-items-center gap-3 mt-3 text-white">
+                        <span class="fs-6">Nuovo Studente</span>
+                        <div class="my_square_rd_icon fs-2">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-6 d-flex flex-column">
+                        <div>
+                            <h1 class="text-white fs-2 d-inline">Boolean</h1>
+                            <span class="breadcrumb-item d-inline text-white bg-dark rounded-5" aria-current="page">Piano blaze</span>
+                        </div>
+
+                        <div>
+                            <span class=" d-inline text-white bg-dark rounded-5" aria-current="page">3 app</span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <span class="breadcrumb-item active text-white  rounded-2 pl-1 pr-1" aria-current="page">Boolean mobile app</span>
+                            <span class="breadcrumb-item active text-white  rounded-2 pl-1 pr-1" aria-current="page">Boolean web app</span>
+                            <span class="breadcrumb-item active text-white  rounded-2 pl-1 pr-1" aria-current="page">Boolean blog app</span>
+                        </div>
+                    </div>
+
+                    <div class="col-8 d-flex flex-column mt-3 text-white mb-3">
+                        <span class="fs-6">Studenti online negli ultimi 30 minuti</span>
+                        <div class="fs-1">125</div>
+                    </div>
+
+                </div>
+            </div>
 
         </section>
 
