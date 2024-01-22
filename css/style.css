@@ -15,11 +15,7 @@
     background-color: rgba(0, 0, 255, 0.3)
 }
 
-.square {
-    width: 200px;
-    height: 200px;
-    background-color: grey;
-}
+/* END MY TESTS */
 
 /* COLORS */
 
@@ -27,7 +23,7 @@
     background-color: #E0E0E0;
     border-radius: 8px;
 }
-/* END MY TESTS */
+
 
 /* DIMENSIONS FOR HEADER ASIDE AND MAIN*/
 
@@ -45,7 +41,6 @@ header .hd_right_left {
 }
 
 aside {
-    top: 70px;
 
     width: 70px;
     height: calc(100vh - 70px);
@@ -55,10 +50,6 @@ aside {
 }
 
 main {
-    left: 70px;
-    top: 70px;
-    
-
     width: calc(100% - 70px);
     height: calc(100vh - 70px);
 
