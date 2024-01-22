@@ -1,31 +1,17 @@
-/* TESTS */
-
-.test-rd {
-    border: 1px red dashed;
-    background-color: rgba(255, 0, 0, 0.3)
-}
-
-.test-gr {
-    border: 1px green dashed;
-    background-color: rgba(0, 255, 0, 0.3)
-}
-
-.test-blu {
-    border: 1px blue dashed;
-    background-color: rgba(0, 0, 255, 0.3)
-}
-
-/* END MY TESTS */
-
 /* COLORS */
 
 .my-lightgrey {
     background-color: #E0E0E0;
     border-radius: 8px;
 }
-/* Buttons icon */
 
-.my_class {
+.my_blue {
+    background-color: #2A5BBA;
+}
+
+/* Button with img in Table */
+
+.my_class_avatar {
     width: 50px;
 }
 
