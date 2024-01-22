@@ -51,6 +51,7 @@
     </header>
     
     <div class="d-flex"> 
+
         <!-- ASIDE with 2 utilities part (start & end) -->
 
         <aside>
@@ -89,47 +90,47 @@
         <main>
 
             <!-- Section #1: the blue one -->
-            <section class="container fluid h50 bg-primary">
+            <section class="container-fluid bg-primary">
 
-                <div class="w-100 p-0">
+                <div class="row row-cols-1 row-cols-md-3 order-1 order-md-2 pt-3 pb-3">
 
-                    <div class="row d-flex flex-column align-items-start">
-
-                        <div class="col-5 d-flex align-items-center gap-3 mt-3 text-white">
+                    <div class="col col-md-4 col-lg-3 order-1 order-md-3 ">
+                        <div class="d-flex align-items-center gap-3">
                             <span class="fs-6">Nuovo Studente</span>
-                            <div class="my_square_rd_icon fs-2">
+                            <div class="fs-2">
                                 <i class="fa fa-plus" aria-hidden="true"></i>
                             </div>
                         </div>
-
-                        <div class="col-6 d-flex flex-column">
-                            <div>
-                                <h1 class="text-white fs-2 d-inline">Boolean</h1>
-                                <span class="breadcrumb-item d-inline text-white bg-dark rounded-5" aria-current="page">Piano blaze</span>
-                            </div>
-
-                            <div>
-                                <span class=" d-inline text-white bg-dark rounded-5" aria-current="page">3 app</span>
-                                <i class="fa fa-plus" aria-hidden="true"></i>
-                                <span class="breadcrumb-item active text-white  rounded-2 pl-1 pr-1" aria-current="page">Boolean mobile app</span>
-                                <span class="breadcrumb-item active text-white  rounded-2 pl-1 pr-1" aria-current="page">Boolean web app</span>
-                                <span class="breadcrumb-item active text-white  rounded-2 pl-1 pr-1" aria-current="page">Boolean blog app</span>
-                            </div>
-                        </div>
-
-                        <div class="col-8 d-flex flex-column mt-3 text-white mb-3">
-                            <span class="fs-6">Studenti online negli ultimi 30 minuti</span>
-                            <div class="fs-1">125</div>
-                        </div>
-
                     </div>
+
+                    <div class="col col-md-4 col-lg-6 order-2 order-md-1">
+                        <div>
+                            <h1 class="text-white fs-2 d-inline">Boolean</h1>
+                            <span class="breadcrumb-item d-inline text-white bg-dark rounded-5" aria-current="page">Piano blaze</span>
+                        </div>
+
+                        <div>
+                            <span class=" d-inline text-white bg-dark rounded-5" aria-current="page">3 app</span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <span class="breadcrumb-item active text-white  rounded-2 pl-1 pr-1" aria-current="page">Boolean mobile app</span>
+                            <span class="breadcrumb-item active text-white  rounded-2 pl-1 pr-1" aria-current="page">Boolean web app</span>
+                            <span class="breadcrumb-item active text-white  rounded-2 pl-1 pr-1" aria-current="page">Boolean blog app</span>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-4 col-lg-3 order-3 order-md-2">
+                        <span class="fs-6">Studenti online negli ultimi 30 minuti</span>
+                        <div class="fs-1">125</div>
+                    </div>
+
                 </div>
+                
 
             </section>
 
             <!-- Section #2: Classe, Chart, To do etc. -->
 
-            <section class="container fluid test-gr h-100">
+            <section class="container-fluid test-gr h-100">
                 <div class="row h-100">
 
                     <!-- Part with Next classes e FAQ -->
