@@ -23,7 +23,11 @@
     background-color: #E0E0E0;
     border-radius: 8px;
 }
+/* Buttons icon */
 
+.my_class {
+    width: 50px;
+}
 
 /* DIMENSIONS FOR HEADER ASIDE AND MAIN*/
 
