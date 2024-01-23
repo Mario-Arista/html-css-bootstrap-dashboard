@@ -2,9 +2,7 @@
 
 .my-lightgrey {
     background-color: #E0E0E0;
-    border-radius: 8px;
 }
-
 
 .my_blue {
     background-color: #2A5BBA;
@@ -14,14 +12,7 @@
     color: #F68F03;
 }
 
-/* Button with img in Table */
-
-.my_class_avatar {
-    width: 45px;
-}
-
 /* DIMENSIONS FOR HEADER ASIDE AND MAIN*/
-
 
 header {
     height: 70px;
@@ -45,6 +36,12 @@ aside {
     background-image: url('../img/sidebar-bg.png');
 }
 
+/* Hover in Aside */
+
+.my_hov_aside:hover {
+    background-color: #e0e0e04b;
+}
+
 main {
     width: calc(100% - 70px);
     height: calc(100vh - 70px);
@@ -52,12 +49,16 @@ main {
     overflow-y: auto;
 }
 
+/* Button with img in Table */
+
+.my_class_avatar {
+    width: 45px;
+}
+
 .icon_trash_pen {
     width: 30px;
     height: 30px;
 }
-
-
 
 /* MEDIA QUERRIES */
 
